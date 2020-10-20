@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    /* Solid Social Share Buttons */
+
+    .btn-social,
+    .btn-social:visited,
+    .btn-social:focus,
+    .btn-social:hover,
+    .btn-social:active {
+      color: #ffffff;
+      text-decoration: none;
+      transition: opacity 0.15s ease-in-out;
+    }
+
+    .btn-social:hover,
+    .btn-social:active {
+      opacity: 0.75;
+    }
+
+    .btn-fb {
+      background-color: #3b5998;
+    }
+
+    .btn-tw {
+      background-color: #1da1f2;
+    }
+
+    .btn-in {
+      background-color: #0077b5;
+    }
+
+    .btn-gp {
+      background-color: #db4437;
+    }
+
+    .btn-rd {
+      background-color: #ff4500;
+    }
+
+    .btn-hn {
+      background-color: #ff4000;
+    }
+
+    /* Outline Social Share Buttons */
+
+    .btn-social-outline {
+      background-color: transparent;
+      background-image: none;
+      text-decoration: none;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+    }
+
+    .btn-fb-outline {
+      color: #3b5998;
+      border-color: #3b5998;
+    }
+
+    .btn-fb-outline:hover,
+    .btn-fb-outline:active {
+      color: #ffffff;
+      background-color: #3b5998;
+    }
+
+    .btn-tw-outline {
+      color: #1da1f2;
+      border-color: #1da1f2;
+    }
+
+    .btn-tw-outline:hover,
+    .btn-tw-outline:active {
+      color: #ffffff;
+      background-color: #1da1f2;
+    }
+
+    .btn-in-outline {
+      color: #0077b5;
+      border-color: #0077b5;
+    }
+
+    .btn-in-outline:hover,
+    .btn-in-outline:active {
+      color: #ffffff;
+      background-color: #0077b5;
+    }
+
+    .btn-gp-outline {
+      color: #db4437;
+      border-color: #db4437;
+    }
+
+    .btn-gp-outline:hover,
+    .btn-gp-outline:active {
+      color: #ffffff;
+      background-color: #db4437;
+    }
+
+    .btn-rd-outline {
+      color: #ff4500;
+      border-color: #ff4500;
+    }
+
+    .btn-rd-outline:hover,
+    .btn-rd-outline:active {
+      color: #ffffff;
+      background-color: #ff4500;
+    }
+
+    .btn-hn-outline {
+      color: #ff4000;
+      border-color: #ff4000;
+    }
+
+    .btn-hn-outline:hover,
+    .btn-hn-outline:active {
+      color: #ffffff;
+      background-color: #ff4000;
+    }
+
+    /* Fluid Styles */
+
+    .fluid {
+      display: flex;
+    }
+
+    .fluid a {
+      flex-grow: 1;
+      margin-right: 0.25rem;
+    }
+
+    .fluid a:last-child {
+      margin-right: 0rem;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse 
+          navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="oef_activiteit.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ervaringen.html">Ervaringen</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="commentaar.html">Commentaar</a>
+            </li>
+          </ul>
+          <form action="" class="form-inline ml-auto">
+            <input type="text" class="form-control mr-2" placeholder="Search" />
+            <button class="btn btn-outline-success">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <form>
+      <div class="form-group">
+        <h2 class="text-center">Lucas</h2>
+        <p class="text-center">Hier typt lucas zijn commentaar</p>
+      </div>
+    </form>
+    <form>
+      <div class="form-group">
+        <h2 class="text-center">Arne</h2>
+        <p class="text-center">Hier typt lucas zijn commentaar</p>
+      </div>
+    </form>
+    <footer class="fixed-bottom p-3 text-center" id="achtergrondFooter">
+      <a
+        class="btn btn-sm btn-social btn-fb"
+        href="https://www.facebook.com/sharer/sharer.php?u=https://www.guldensporencollege.be/"
+        target="_blank"
+        title="Share Guldensporencollege on Facebook"
+      >
+        <i class="fab fa-facebook-square"></i> Share
+      </a>
+      <a
+        class="btn btn-sm btn-social btn-tw"
+        href="https://twitter.com/intent/tweet?text=PAGE_TITLE&amp;url=PAGE_URL"
+        target="_blank"
+        title="Share this post on Twitter"
+      >
+        <i class="fab fa-twitter"></i> Tweet
+      </a>
+      <a
+        class="btn btn-sm btn-social btn-in"
+        href="https://www.linkedin.com/shareArticle?mini=true&url=PAGE_URL&amp;title=PAGE_TITLE"
+        target="_blank"
+        title="Share this post on LinkedIn"
+      >
+        <i class="fab fa-linkedin-in" data-fa-transform="grow-2"></i>
+      </a>
+      <a
+        class="btn btn-sm btn-social btn-gp"
+        href="https://plus.google.com/share?url=PAGE_URL"
+        target="_blank"
+        title="Share this post on Google Plus"
+      >
+        <i class="fab fa-google-plus-g" data-fa-transform="grow-2"></i>
+      </a>
+      <a
+        class="btn btn-sm btn-social btn-rd"
+        href="https://www.reddit.com/submit?url=PAGE_URL&title=PAGE_TITLE"
+        target="_blank"
+        title="Share this post on Reddit"
+      >
+        <i class="fab fa-reddit-alien" data-fa-transform="grow-4"></i>
+      </a>
+      <a
+        class="btn btn-sm btn-social btn-hn"
+        href="https://news.ycombinator.com/submitlink?u=PAGE_URL&t=PAGE_TITLE"
+        target="_blank"
+        title="Share this post on Hacker News"
+      >
+        <i class="fab fa-hacker-news" data-fa-transform="grow-4"></i>
+      </a>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/2095839360.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
